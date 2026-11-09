@@ -1,0 +1,33 @@
+# Creative Remix Engine + PostgreSQL (video analysis cache).
+# Put your keys in a .env file next to this file (see .env.example), then: docker compose up --build
+services:
+  db:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_DB: remix
+      POSTGRES_USER: remix
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-remix}
+    ports:
+      - "5433:5432"   # host 5433, so it doesn't clash with a local Postgres; `dotnet run` uses this port too
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U remix -d remix"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+
+  app:
+    build: .
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "5080:8080"
+    environment:
+      ConnectionStrings__Postgres: "Host=db;Port=5432;Database=remix;Username=remix;Password=${POSTGRES_PASSWORD:-remix};Gss Encryption Mode=Disable"
+      GEMINI_API_KEY: ${GEMINI_API_KEY:-}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+
+volumes:
+  pgdata:

@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Creative Remix Engine · SockLock</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="app.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%23FF4D2E'/><path d='M9 9v8a7 7 0 0 0 14 0V9h-4v8a3 3 0 0 1-6 0V9z' fill='white'/></svg>">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <span class="logo" aria-hidden="true">
+      <svg viewBox="0 0 32 32"><rect width="32" height="32" rx="9"/><path d="M9 9v8a7 7 0 0 0 14 0V9h-4v8a3 3 0 0 1-6 0V9z"/></svg>
+    </span>
+    <div>
+      <div class="brand-name">Creative Remix Engine</div>
+      <div class="brand-sub">SockLock · creative intelligence</div>
+    </div>
+  </div>
+  <div class="topbar-right">
+    <div class="status" id="status"></div>
+    <div class="kpi" id="kpi" title="The north-star metric: approved creative variations per hour of work in this session">
+      <span class="kpi-num" id="kpiApproved">0</span> approved
+      <span class="kpi-sep">·</span>
+      <span id="kpiRate">—</span>/hr
+    </div>
+    <button class="btn ghost" id="exportBtn" disabled>Export JSON</button>
+    <button class="btn dark" id="demoBtn">Load Demo</button>
+  </div>
+</header>
+
+<div class="demo-banner" id="demoBanner" hidden>
+  <span class="badge sample">Sample data</span>
+  <span>You're viewing <b>pre-generated sample results</b>, not a live run. No API calls are made. The competitor brand is fictional.</span>
+  <button class="link" id="exitDemoBtn">Exit demo</button>
+</div>
+
+<nav class="stepper" id="stepper">
+  <button data-step="1"><span class="n">1</span><span class="t">Creative inputs</span></button>
+  <button data-step="2"><span class="n">2</span><span class="t">Breakdown</span></button>
+  <button data-step="3"><span class="n">3</span><span class="t">Matching</span></button>
+  <button data-step="4"><span class="n">4</span><span class="t">Generate &amp; review</span></button>
+</nav>
+
+<main>
+  <!-- STEP 1 -->
+  <section class="step" id="step1">
+    <div class="step-head">
+      <h1>Start with two creatives.</h1>
+      <p>A competitor ad to learn from, and one of our winning scripts to remix. Gemini watches and listens to the video; GPT reads the script. Both use the same segment model.</p>
+    </div>
+
+    <div class="grid-2">
+      <article class="card">
+        <div class="card-head">
+          <div><div class="eyebrow">Competitor creative</div><h2>Video ad</h2></div>
+          <span class="chip" id="videoChip">MP4 · analyzed by Gemini</span>
+        </div>
+
+        <label class="dropzone" id="dropzone">
+          <input type="file" id="fileInput" accept="video/mp4,video/*" hidden>
+          <div class="dz-icon"><svg viewBox="0 0 24 24"><path d="M12 16V4m0 0-4 4m4-4 4 4M4 16v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></svg></div>
+          <div class="dz-title">Drop a competitor ad here</div>
+          <div class="dz-sub">An MP4 export of the ad, or <u>browse files</u></div>
+        </label>
+
+        <div class="or"><span>or paste a link</span></div>
+        <form class="link-row" id="linkForm">
+          <input type="url" id="linkInput" placeholder="https://…/ad.mp4  or  https://youtube.com/watch?v=…" autocomplete="off">
+          <button class="btn ghost" type="submit">Preview</button>
+        </form>
+        <div class="muted small" id="linkHelp">Direct video-file links and YouTube links work. Ad Library and TikTok <i>pages</i> don't expose the file, so download the ad and drop it above.</div>
+
+        <div id="videoPanel" hidden>
+          <div class="video-wrap" id="previewWrap"><video id="video1" controls playsinline preload="metadata"></video></div>
+          <dl class="meta" id="videoMeta"></dl>
+          <div class="row gap">
+            <button class="btn ghost" id="replaceBtn">Change video</button>
+            <button class="btn primary grow" id="analyzeVideoBtn">Analyze video</button>
+          </div>
+        </div>
+        <div id="videoStatus"></div>
+      </article>
+
+      <article class="card">
+        <div class="card-head">
+          <div><div class="eyebrow">Our winning script</div><h2>SockLock winner</h2></div>
+          <button class="btn ghost sm" id="sampleScriptBtn">Use sample script</button>
+        </div>
+        <textarea id="scriptInput" spellcheck="true" placeholder="Paste a winning script here, with hook, pain, solution, demo, proof, offer and CTA. Labels like HOOK / VO: / ON-SCREEN: / VISUAL: help but aren't required."></textarea>
+        <div class="row between muted small">
+          <span id="scriptStats">0 words</span>
+          <span>Analyzed by GPT using the same segment model</span>
+        </div>
+        <button class="btn primary block" id="analyzeScriptBtn">Analyze script</button>
+        <div id="scriptStatus"></div>
+      </article>
+    </div>
+
+    <div class="step-foot">
+      <button class="btn primary lg" id="toStep2" disabled>Continue to breakdown →</button>
+    </div>
+  </section>
+
+  <!-- STEP 2 -->
+  <section class="step" id="step2" hidden>
+    <div class="step-head">
+      <h1>Creative breakdown</h1>
+      <p><b>Observed</b> is what's literally on screen or in the audio. <b>AI interpretation</b> is inference, and every insight cites its evidence and timestamp.</p>
+    </div>
+    <div class="seg-toggle" role="tablist">
+      <button class="active" data-panel="comp">Competitor creative</button>
+      <button data-panel="win">Our winner</button>
+    </div>
+    <div id="compPanel"></div>
+    <div id="winPanel" hidden></div>
+    <div class="step-foot">
+      <button class="btn primary lg" id="toStep3">Find matching techniques →</button>
+    </div>
+    <div id="matchStatus"></div>
+  </section>
+
+  <!-- STEP 3 -->
+  <section class="step" id="step3" hidden>
+    <div class="step-head">
+      <h1>Pick what to borrow</h1>
+      <p>Competitor techniques, grouped by the part of our script they'd change. Tick the ones that should shape the next batch.</p>
+    </div>
+    <div class="pickbar">
+      <div class="row gap wrap">
+        <span class="muted small">Quick pick</span>
+        <button class="chip-btn" id="pickTop3">Top 3</button>
+        <button class="chip-btn" id="pickStrong">All strong (75+)</button>
+        <button class="chip-btn" id="pickNone">Clear</button>
+      </div>
+      <details class="how">
+        <summary>How scores work</summary>
+        <div class="how-body"><div class="formula" id="formula"></div>
+          <p class="muted small">GPT rates each criterion 0–10 and the score is computed in code. Ideas that need unsupported claims or copy the competitor are ruled out automatically.</p></div>
+      </details>
+    </div>
+    <div id="matchGroups" class="stack"></div>
+    <details class="ruled-out" id="rejectedWrap">
+      <summary>Ruled out <span class="count" id="rejCount"></span></summary>
+      <div id="rejectedList"></div>
+    </details>
+    <div class="selbar">
+      <div class="selbar-text"><b id="selCount">0</b> selected <span class="muted" id="selSummary"></span></div>
+      <button class="btn primary" id="toStep4">Continue to generate →</button>
+    </div>
+  </section>
+
+  <div class="modal" id="clipModal" hidden>
+    <div class="modal-card">
+      <div class="row between"><b id="clipTitle"></b><button class="btn ghost sm" id="clipClose">Close</button></div>
+      <div id="clipBody"></div>
+    </div>
+  </div>
+
+  <!-- STEP 4 -->
+  <section class="step" id="step4" hidden>
+    <div class="step-head">
+      <h1>Generate &amp; review</h1>
+      <p>Approve the variations you'd ship. Approvals feed the <b>approved variations per hour</b> counter in the top bar.</p>
+    </div>
+    <div class="card gen-controls">
+      <div class="mode-pick" role="radiogroup">
+        <button class="mode active" data-mode="modifier">
+          <span class="mode-title">Modifier</span>
+          <span class="mode-desc">Meaningfully different remixes of the winner, using the selected techniques</span>
+        </button>
+        <button class="mode" data-mode="creator">
+          <span class="mode-title">Creator</span>
+          <span class="mode-desc">A new, original concept inspired by competitor insights and adapted to SockLock</span>
+        </button>
+      </div>
+      <div class="gen-right">
+        <label class="count-field">Variations
+          <span class="stepper-input">
+            <button id="cntMinus" aria-label="Fewer">−</button>
+            <input id="countInput" type="number" min="1" max="10" value="5">
+            <button id="cntPlus" aria-label="More">+</button>
+          </span>
+        </label>
+        <button class="btn primary lg" id="generateBtn">Generate</button>
+      </div>
+      <div class="selected-chips" id="selectedChips"></div>
+    </div>
+    <div id="genStatus"></div>
+    <div id="variations" class="stack"></div>
+  </section>
+</main>
+
+<div class="toast" id="toast" hidden></div>
+<script src="app.js"></script>
+</body>
+</html>

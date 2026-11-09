@@ -1,0 +1,1443 @@
+{
+  "winnerScript": "HOOK\nVO: I just dumped out my sock drawer and found fourteen socks with no partner. Fourteen.\nON-SCREEN: 14 orphan socks 😩\nVISUAL: Creator flips a drawer upside down onto the bed; mismatched socks spill everywhere.\n\nPAIN\nVO: Every laundry day the machine eats one of each pair, and I end up at work in one black sock and one navy one.\nON-SCREEN: the laundry ate it. again.\nVISUAL: Close-up of mismatched ankles under an office desk.\n\nSOLUTION\nVO: So I switched to SockLock. There's a little magnet in each cuff.\nON-SCREEN: magnets in the cuffs 🧲\nVISUAL: Macro shot of two cuffs snapping together with an audible click.\n\nDEMO\nVO: Take them off, click them together, throw them in the wash. They come out still a pair.\nON-SCREEN: click → wash → still paired\nVISUAL: Socks clicked together, tossed in the washer, pulled out of the drum still attached. (3 quick cuts)\n\nPROOF\nVO: It's been a month. Not one orphan sock.\nON-SCREEN: 1 month. 0 orphans.\nVISUAL: Slow push-in on a drawer of neatly paired socks.\n\nOFFER\nVO: Your first box is five pairs for twenty-nine dollars, then fresh pairs show up every quarter.\nON-SCREEN: 5 pairs · $29\nVISUAL: Unboxing five pairs on the bed.\n\nCTA\nVO: Tap the link and lock your pairs together.\nON-SCREEN: Lock your pairs →\nVISUAL: Creator holds a clicked pair up to camera.",
+  "competitor": {
+    "title": "FoldFast — “POV: Sunday laundry” UGC ad (fictional sample)",
+    "summary": "A first-person UGC ad that turns a universal chore into a relatable ‘pile of shame’, quantifies the time it wastes, then proves the product with an uncut timed demo and a witness reaction. The offer leans on a strikethrough discount and scarcity.",
+    "productCategory": "Laundry folding board (home organization)",
+    "durationSec": 34.0,
+    "primaryAngle": "Reclaim the time a weekly chore steals from you",
+    "storytellingPattern": "POV relatable moment → quantified pain → reluctant discovery → real-time proof → witness reaction → offer → loop",
+    "targetAudience": "Busy 22–40 renters and young families who dread laundry day",
+    "segments": [
+      {
+        "id": "C1",
+        "role": "Hook",
+        "startSec": 0.0,
+        "endSec": 2.8,
+        "observed": {
+          "spokenText": "POV: it's Sunday and this is your bed.",
+          "onScreenText": "POV: Sunday 6pm 😮‍💨",
+          "visualDescription": "Locked-off top-down shot of a bed buried under clean, unfolded laundry. Hard punch-in zoom at ~1.2s. A hand drops one more shirt onto the pile.",
+          "audioNotes": "Lo-fi beat drops on the first cut; deadpan female voice-over."
+        },
+        "interpretation": {
+          "mechanism": "Pattern interrupt + relatable exaggeration (POV framing)",
+          "angle": "Weekly chore dread",
+          "emotionalTrigger": "Recognition, mild shame",
+          "storytellingPattern": "First-person ‘this is you’ moment",
+          "reusablePattern": "Open on an exaggerated top-down ‘pile of shame’ of [PAIN] in its natural habitat, with a POV caption naming the exact moment ([DAY/TIME]) it happens.",
+          "evidence": "0.0–2.8s: top-down overloaded bed with caption ‘POV: Sunday 6pm’; punch-in at ~1.2s; extra shirt dropped at 2.1s.",
+          "confidence": 0.92
+        }
+      },
+      {
+        "id": "C2",
+        "role": "Pain",
+        "startSec": 2.8,
+        "endSec": 8.5,
+        "observed": {
+          "spokenText": "Forty minutes of folding, and by Wednesday the drawer looks like a crime scene again.",
+          "onScreenText": "40 min. Every. Week.",
+          "visualDescription": "Five fast cuts in ~5s: creator sighs, a badly folded shirt, a drawer forced shut, a phone stopwatch reading 40:12, the drawer messy again.",
+          "audioNotes": "Ticking-clock SFX layered under the beat."
+        },
+        "interpretation": {
+          "mechanism": "Quantified pain (specific recurring cost) + futility",
+          "angle": "Time wasted on a chore that undoes itself",
+          "emotionalTrigger": "Frustration",
+          "storytellingPattern": "Escalation montage",
+          "reusablePattern": "Put a hard, recurring number on [PAIN] as an on-screen caption and show the problem ‘resetting’ so the futility is visible.",
+          "evidence": "Caption ‘40 min. Every. Week.’ at 3.1s; stopwatch close-up 40:12 at 6.9s; ticking SFX from 2.8s.",
+          "confidence": 0.88
+        }
+      },
+      {
+        "id": "C3",
+        "role": "Solution",
+        "startSec": 8.5,
+        "endSec": 12.0,
+        "observed": {
+          "spokenText": "Then my sister sent me this.",
+          "onScreenText": "game changer?",
+          "visualDescription": "Whip-pan transition; a hand slides the folding board into frame from the right and drops it on the cleared bed.",
+          "audioNotes": "Beat switch to a brighter track; ‘thunk’ SFX as the board lands."
+        },
+        "interpretation": {
+          "mechanism": "Skeptical discovery (question instead of claim) + trusted-person referral",
+          "angle": "Found it through someone I trust",
+          "emotionalTrigger": "Curiosity, hope",
+          "storytellingPattern": "Problem → discovery pivot on a beat switch",
+          "reusablePattern": "Pivot from [PAIN] to [PRODUCT] on a whip-pan with an audible ‘landing’ SFX and a skeptical question caption instead of a claim.",
+          "evidence": "Whip-pan at 8.5s; caption ends in a question mark; music changes at 8.6s; ‘thunk’ at 9.4s.",
+          "confidence": 0.85
+        }
+      },
+      {
+        "id": "C4",
+        "role": "Demonstration",
+        "startSec": 12.0,
+        "endSec": 21.5,
+        "observed": {
+          "spokenText": "Flip, flip, fold. That's it. Watch — I'm timing it.",
+          "onScreenText": "⏱ 00:07",
+          "visualDescription": "Overhead locked-off shot. One uncut real-time take folding a T-shirt in ~3s (12.0–15.2s), then a 4× speed ramp through a whole stack. A timer overlay counts up continuously.",
+          "audioNotes": "Fold ‘snap’ sounds mixed loud, ASMR-style."
+        },
+        "interpretation": {
+          "mechanism": "Demonstration-as-proof: uncut take + live timer signals ‘nothing is edited’",
+          "angle": "Effortless speed",
+          "emotionalTrigger": "Satisfaction (ASMR), relief",
+          "storytellingPattern": "Real-time challenge",
+          "reusablePattern": "Prove [PRODUCT]'s core mechanic in one uncut real-time take with a live on-screen timer, then speed-ramp the repetition; mix the mechanic's sound loud.",
+          "evidence": "No cuts between 12.0s and 15.2s; timer overlay visible throughout; 4× ramp from 15.2s; fold SFX on every fold.",
+          "confidence": 0.9
+        }
+      },
+      {
+        "id": "C5",
+        "role": "Proof",
+        "startSec": 21.5,
+        "endSec": 26.5,
+        "observed": {
+          "spokenText": "(Roommate, off-camera) Wait, you folded all of that? (Creator) Eight minutes.",
+          "onScreenText": "40 min → 8 min · 2M views on my last video lol",
+          "visualDescription": "Split screen: left, the Sunday pile; right, a neatly stacked drawer. The roommate leans into frame looking surprised.",
+          "audioNotes": "Record-scratch SFX on the roommate's line."
+        },
+        "interpretation": {
+          "mechanism": "Before/after contrast + third-party witness reaction; view-count social proof",
+          "angle": "Visible transformation",
+          "emotionalTrigger": "Validation, pride",
+          "storytellingPattern": "Witness reaction",
+          "reusablePattern": "Split-screen before/after with a ‘from → to’ caption, and let an off-camera witness voice the disbelief instead of the creator claiming it.",
+          "evidence": "Split screen from 21.5s; caption ‘40 min → 8 min’; roommate line at 22.3s; ‘2M views’ overlay at 24.0s.",
+          "confidence": 0.86
+        }
+      },
+      {
+        "id": "C6",
+        "role": "Offer",
+        "startSec": 26.5,
+        "endSec": 30.5,
+        "observed": {
+          "spokenText": "They're doing fifty percent off right now — it was sixty, now it's thirty.",
+          "onScreenText": "$60 → $30 · 50% OFF",
+          "visualDescription": "Product on a pastel backdrop; a price card animates in with a strikethrough on $60.",
+          "audioNotes": "Cash-register SFX on the price reveal."
+        },
+        "interpretation": {
+          "mechanism": "Price anchoring + urgency",
+          "angle": "Deal",
+          "emotionalTrigger": "Fear of missing out",
+          "storytellingPattern": "Offer card",
+          "reusablePattern": "State the offer in one breath on a single animated price card, synced to a confirmation SFX.",
+          "evidence": "Strikethrough price card at 26.8s; ‘50% OFF’ caption; ‘right now’ in the VO.",
+          "confidence": 0.9
+        }
+      },
+      {
+        "id": "C7",
+        "role": "CTA",
+        "startSec": 30.5,
+        "endSec": 34.0,
+        "observed": {
+          "spokenText": "Link's in my bio before they sell out again. Comment ‘FOLD’ and I'll send it.",
+          "onScreenText": "Comment FOLD 👇",
+          "visualDescription": "Creator points down toward the comments. The final frame cuts back to the opening top-down pile, so the video loops seamlessly.",
+          "audioNotes": "Beat ends on a downbeat that lines up with the loop start."
+        },
+        "interpretation": {
+          "mechanism": "Low-friction engagement CTA + loop-back ending (rewatches)",
+          "angle": "Insider access",
+          "emotionalTrigger": "Belonging, urgency",
+          "storytellingPattern": "Loop ending (last frame matches the first)",
+          "reusablePattern": "End by cutting back to the exact opening frame so the video loops, paired with a one-word comment CTA.",
+          "evidence": "Pointing gesture at 31.0s; the last frame (33.6s) visually matches the 0.0s frame; caption ‘Comment FOLD’.",
+          "confidence": 0.84
+        }
+      }
+    ],
+    "techniques": [
+      {
+        "id": "T1",
+        "name": "POV pile-of-shame cold open",
+        "category": "Hook",
+        "description": "Top-down shot of the problem at its worst, labeled with the exact moment it happens.",
+        "sourceSegmentIds": [
+          "C1"
+        ],
+        "startSec": 0.0,
+        "endSec": 2.8,
+        "evidence": "Overloaded bed + ‘POV: Sunday 6pm’ + punch-in at 1.2s.",
+        "howToReuse": "Shoot [PAIN] top-down in its natural habitat, punch in at ~1s, caption ‘POV: [moment the pain happens]’."
+      },
+      {
+        "id": "T2",
+        "name": "Quantified pain counter",
+        "category": "Persuasion",
+        "description": "A hard recurring number makes a vague annoyance feel like a real cost.",
+        "sourceSegmentIds": [
+          "C2"
+        ],
+        "startSec": 2.8,
+        "endSec": 8.5,
+        "evidence": "‘40 min. Every. Week.’ + stopwatch at 40:12.",
+        "howToReuse": "Caption the recurring cost of [PAIN] with a number the creator actually measured; show it reset or grow."
+      },
+      {
+        "id": "T3",
+        "name": "Whip-pan skeptical reveal",
+        "category": "Editing",
+        "description": "The product enters on a whip-pan and a ‘landing’ SFX, captioned with a question instead of a claim.",
+        "sourceSegmentIds": [
+          "C3"
+        ],
+        "startSec": 8.5,
+        "endSec": 12.0,
+        "evidence": "Whip-pan at 8.5s, ‘game changer?’, thunk SFX.",
+        "howToReuse": "Whip-pan from [PAIN] to [PRODUCT] landing in frame; caption the reveal as a skeptical question."
+      },
+      {
+        "id": "T4",
+        "name": "Uncut demo with live timer",
+        "category": "Proof",
+        "description": "One continuous take with a running timer proves the mechanic isn't edited.",
+        "sourceSegmentIds": [
+          "C4"
+        ],
+        "startSec": 12.0,
+        "endSec": 15.2,
+        "evidence": "No cuts 12.0–15.2s; timer overlay.",
+        "howToReuse": "Film [PRODUCT]'s core action in a single uncut take with a live on-screen timer, then speed-ramp the repetitions."
+      },
+      {
+        "id": "T5",
+        "name": "ASMR mechanic sound",
+        "category": "Sound",
+        "description": "The product's physical sound is mixed loud as a satisfying signature.",
+        "sourceSegmentIds": [
+          "C4"
+        ],
+        "startSec": 12.0,
+        "endSec": 21.5,
+        "evidence": "Fold ‘snap’ SFX mixed above the music.",
+        "howToReuse": "Close-mic the [PRODUCT]'s signature sound and mix it +6 dB above the music, on the beat."
+      },
+      {
+        "id": "T6",
+        "name": "Split-screen from→to + witness",
+        "category": "Storytelling",
+        "description": "Before/after side by side with the result as a ‘from → to’ caption; a bystander voices the surprise.",
+        "sourceSegmentIds": [
+          "C5"
+        ],
+        "startSec": 21.5,
+        "endSec": 23.8,
+        "evidence": "Split screen at 21.5s, ‘40 min → 8 min’, roommate line at 22.3s.",
+        "howToReuse": "Split-screen [BEFORE] vs [AFTER]; caption ‘[before] → [after]’; an off-camera friend reacts to what's on screen."
+      },
+      {
+        "id": "T7",
+        "name": "Strikethrough price anchor + scarcity",
+        "category": "Offer",
+        "description": "Discount framed against a higher ‘was’ price, plus a ‘sell out’ warning.",
+        "sourceSegmentIds": [
+          "C6",
+          "C7"
+        ],
+        "startSec": 26.5,
+        "endSec": 32.0,
+        "evidence": "‘$60 → $30 · 50% OFF’; ‘before they sell out again’.",
+        "howToReuse": "Show [WAS PRICE] struck through next to [NOW PRICE] with an urgency line."
+      },
+      {
+        "id": "T8",
+        "name": "Seamless loop ending",
+        "category": "Editing",
+        "description": "The last frame matches the first, so the ad rewatches itself.",
+        "sourceSegmentIds": [
+          "C7"
+        ],
+        "startSec": 30.5,
+        "endSec": 34.0,
+        "evidence": "The 33.6s frame matches the 0.0s frame.",
+        "howToReuse": "End on the exact composition of your opening frame; time the final beat to the loop point."
+      },
+      {
+        "id": "T9",
+        "name": "View-count social proof overlay",
+        "category": "Proof",
+        "description": "On-screen brag about past video views as implied credibility.",
+        "sourceSegmentIds": [
+          "C5"
+        ],
+        "startSec": 24.0,
+        "endSec": 26.5,
+        "evidence": "‘2M views on my last video lol’ at 24.0s.",
+        "howToReuse": "Overlay an audience number (views, buyers) as casual proof."
+      }
+    ],
+    "preserve": [],
+    "productBenefits": [
+      "Folds a shirt in about 3 seconds (claimed)",
+      "Cuts weekly folding from 40 to 8 minutes (claimed)"
+    ]
+  },
+  "winner": {
+    "title": "SockLock — “14 orphan socks” (winning script)",
+    "summary": "A UGC confession that makes the lost-sock problem concrete with a specific number, shows the magnet click as the signature product moment, and proves it with a simple click → wash → still paired sequence before a clean offer.",
+    "productCategory": "Magnetic socks (apparel, subscription)",
+    "durationSec": 31.0,
+    "primaryAngle": "End orphan socks for good",
+    "storytellingPattern": "Specific-number confession → everyday embarrassment → simple mechanism → three-step demo → personal result → offer",
+    "targetAudience": "Working adults who are tired of mismatched socks and laundry hassle",
+    "segments": [
+      {
+        "id": "W1",
+        "role": "Hook",
+        "startSec": 0.0,
+        "endSec": 4.0,
+        "observed": {
+          "spokenText": "I just dumped out my sock drawer and found fourteen socks with no partner. Fourteen.",
+          "onScreenText": "14 orphan socks 😩",
+          "visualDescription": "Creator flips a drawer upside down onto the bed; mismatched socks spill everywhere.",
+          "audioNotes": ""
+        },
+        "interpretation": {
+          "mechanism": "Specificity + self-deprecating confession",
+          "angle": "Lost-sock chaos",
+          "emotionalTrigger": "Recognition, amused frustration",
+          "storytellingPattern": "Confession with a hard number",
+          "reusablePattern": "Open with an oddly specific count of [PAIN] and repeat the number for emphasis.",
+          "evidence": "‘fourteen … Fourteen.’ repeated; caption ‘14 orphan socks’.",
+          "confidence": 0.9
+        }
+      },
+      {
+        "id": "W2",
+        "role": "Pain",
+        "startSec": 4.0,
+        "endSec": 10.0,
+        "observed": {
+          "spokenText": "Every laundry day the machine eats one of each pair, and I end up at work in one black sock and one navy one.",
+          "onScreenText": "the laundry ate it. again.",
+          "visualDescription": "Close-up of mismatched ankles under an office desk.",
+          "audioNotes": ""
+        },
+        "interpretation": {
+          "mechanism": "Social embarrassment in a public setting",
+          "angle": "Looking put-together matters",
+          "emotionalTrigger": "Mild embarrassment",
+          "storytellingPattern": "Everyday consequence",
+          "reusablePattern": "Show [PAIN]'s consequence in public, where it is slightly embarrassing.",
+          "evidence": "Office-desk ankle close-up; ‘one black sock and one navy one’.",
+          "confidence": 0.85
+        }
+      },
+      {
+        "id": "W3",
+        "role": "Solution",
+        "startSec": 10.0,
+        "endSec": 14.0,
+        "observed": {
+          "spokenText": "So I switched to SockLock. There's a little magnet in each cuff.",
+          "onScreenText": "magnets in the cuffs 🧲",
+          "visualDescription": "Macro shot of two cuffs snapping together with an audible click.",
+          "audioNotes": "Audible magnet click."
+        },
+        "interpretation": {
+          "mechanism": "Simple, visible mechanism (believable ‘how’)",
+          "angle": "Clever simple fix",
+          "emotionalTrigger": "Satisfaction",
+          "storytellingPattern": "Reveal through mechanism",
+          "reusablePattern": "Reveal [PRODUCT] through its one physical mechanism in macro, with its sound.",
+          "evidence": "Macro cuff shot + click; ‘magnet in each cuff’.",
+          "confidence": 0.92
+        }
+      },
+      {
+        "id": "W4",
+        "role": "Demonstration",
+        "startSec": 14.0,
+        "endSec": 20.0,
+        "observed": {
+          "spokenText": "Take them off, click them together, throw them in the wash. They come out still a pair.",
+          "onScreenText": "click → wash → still paired",
+          "visualDescription": "Socks clicked together, tossed in the washer, pulled out of the drum still attached. (3 quick cuts)",
+          "audioNotes": ""
+        },
+        "interpretation": {
+          "mechanism": "Three-step routine demo",
+          "angle": "Effortless habit",
+          "emotionalTrigger": "Relief",
+          "storytellingPattern": "Process in three beats",
+          "reusablePattern": "Show the routine as three captioned beats ending in the result.",
+          "evidence": "Caption ‘click → wash → still paired’; 3 cuts.",
+          "confidence": 0.88
+        }
+      },
+      {
+        "id": "W5",
+        "role": "Proof",
+        "startSec": 20.0,
+        "endSec": 23.0,
+        "observed": {
+          "spokenText": "It's been a month. Not one orphan sock.",
+          "onScreenText": "1 month. 0 orphans.",
+          "visualDescription": "Slow push-in on a drawer of neatly paired socks.",
+          "audioNotes": ""
+        },
+        "interpretation": {
+          "mechanism": "Personal result over time",
+          "angle": "It actually lasts",
+          "emotionalTrigger": "Calm, order",
+          "storytellingPattern": "Time-stamped personal outcome",
+          "reusablePattern": "State the creator's own result with a time period and a zero.",
+          "evidence": "‘1 month. 0 orphans.’; tidy drawer push-in.",
+          "confidence": 0.82
+        }
+      },
+      {
+        "id": "W6",
+        "role": "Offer",
+        "startSec": 23.0,
+        "endSec": 28.0,
+        "observed": {
+          "spokenText": "Your first box is five pairs for twenty-nine dollars, then fresh pairs show up every quarter.",
+          "onScreenText": "5 pairs · $29",
+          "visualDescription": "Unboxing five pairs on the bed.",
+          "audioNotes": ""
+        },
+        "interpretation": {
+          "mechanism": "Clear, approved offer with subscription framed as a benefit",
+          "angle": "Easy start",
+          "emotionalTrigger": "Reassurance",
+          "storytellingPattern": "Plain offer",
+          "reusablePattern": "State the exact starter offer in one sentence over an unboxing.",
+          "evidence": "‘five pairs for twenty-nine dollars … every quarter’.",
+          "confidence": 0.95
+        }
+      },
+      {
+        "id": "W7",
+        "role": "CTA",
+        "startSec": 28.0,
+        "endSec": 31.0,
+        "observed": {
+          "spokenText": "Tap the link and lock your pairs together.",
+          "onScreenText": "Lock your pairs →",
+          "visualDescription": "Creator holds a clicked pair up to camera.",
+          "audioNotes": ""
+        },
+        "interpretation": {
+          "mechanism": "Benefit-phrased CTA that echoes the brand name",
+          "angle": "Lock it in",
+          "emotionalTrigger": "Resolve",
+          "storytellingPattern": "Direct CTA",
+          "reusablePattern": "End with a CTA verb that echoes the product name and benefit.",
+          "evidence": "‘lock your pairs’ mirrors ‘SockLock’.",
+          "confidence": 0.86
+        }
+      }
+    ],
+    "techniques": [
+      {
+        "id": "WT1",
+        "name": "Specific-number confession hook",
+        "category": "Hook",
+        "description": "An oddly precise count makes the problem real.",
+        "sourceSegmentIds": [
+          "W1"
+        ],
+        "startSec": 0.0,
+        "endSec": 4.0,
+        "evidence": "‘fourteen … Fourteen.’",
+        "howToReuse": "Lead with the creator's own count of the problem."
+      },
+      {
+        "id": "WT2",
+        "name": "Macro magnet click",
+        "category": "Sound",
+        "description": "The product's signature sensory moment.",
+        "sourceSegmentIds": [
+          "W3"
+        ],
+        "startSec": 10.0,
+        "endSec": 14.0,
+        "evidence": "Macro cuff shot + audible click.",
+        "howToReuse": "Always show the click in macro, with the sound."
+      },
+      {
+        "id": "WT3",
+        "name": "Three-beat process caption",
+        "category": "Storytelling",
+        "description": "click → wash → still paired.",
+        "sourceSegmentIds": [
+          "W4"
+        ],
+        "startSec": 14.0,
+        "endSec": 20.0,
+        "evidence": "Caption with arrows.",
+        "howToReuse": "Caption the routine in 3 arrowed beats."
+      }
+    ],
+    "preserve": [
+      {
+        "element": "The specific number ‘fourteen’ and its deadpan repetition",
+        "segmentId": "W1",
+        "reason": "Specificity makes the hook believable and quotable — likely the main driver of hook rate."
+      },
+      {
+        "element": "Macro shot of the magnet click with audible sound",
+        "segmentId": "W3",
+        "reason": "The signature product moment; it explains the mechanism in under a second."
+      },
+      {
+        "element": "‘click → wash → still paired’ routine",
+        "segmentId": "W4",
+        "reason": "Makes the habit feel effortless and shows the payoff."
+      },
+      {
+        "element": "Offer wording: five pairs for $29, then quarterly deliveries",
+        "segmentId": "W6",
+        "reason": "Approved offer language; must not change."
+      },
+      {
+        "element": "‘Lock your pairs’ CTA",
+        "segmentId": "W7",
+        "reason": "Echoes the brand name and the benefit."
+      }
+    ],
+    "productBenefits": [
+      "Magnets in the cuffs keep each pair together",
+      "Starter box: five pairs for $29, then fresh pairs every quarter"
+    ]
+  },
+  "matchCandidates": [
+    {
+      "id": "M1",
+      "competitorTechniqueId": "T4",
+      "competitorSegmentId": "C4",
+      "winnerSegmentId": "W4",
+      "techniqueName": "Uncut demo with live timer",
+      "criteria": {
+        "role": {
+          "score": 9,
+          "reason": "Both show the mechanic working."
+        },
+        "pain": {
+          "score": 7,
+          "reason": "Both answer ‘does it really work?’"
+        },
+        "mechanism": {
+          "score": 9,
+          "reason": "Uncut take removes edit suspicion."
+        },
+        "productFit": {
+          "score": 9,
+          "reason": "Real routine, no new claim."
+        },
+        "novelty": {
+          "score": 7,
+          "reason": "Winner uses quick cuts today."
+        }
+      },
+      "whyTransferable": "Uncut footage plus a visible clock reads as proof, not editing.",
+      "whatToChange": "Shoot the wash demo as one uncut take with a running cycle clock.",
+      "whatToKeep": "click → wash → still paired caption",
+      "hypothesis": "If the demo is uncut and timed, then hold rate rises because it can't look edited.",
+      "compatible": true,
+      "unsupportedClaimRisk": false,
+      "directCopyRisk": false,
+      "riskNotes": "Film real cycles only.",
+      "expectedImpact": "Hold rate"
+    },
+    {
+      "id": "M2",
+      "competitorTechniqueId": "T1",
+      "competitorSegmentId": "C1",
+      "winnerSegmentId": "W1",
+      "techniqueName": "POV pile-of-shame cold open",
+      "criteria": {
+        "role": {
+          "score": 10,
+          "reason": "Both are scroll-stopping problem hooks."
+        },
+        "pain": {
+          "score": 9,
+          "reason": "Laundry chaos ≈ orphan socks."
+        },
+        "mechanism": {
+          "score": 7,
+          "reason": "POV sharpens existing exaggeration."
+        },
+        "productFit": {
+          "score": 9,
+          "reason": "A real sock pile, no claim."
+        },
+        "novelty": {
+          "score": 5,
+          "reason": "Overlaps with the drawer dump."
+        }
+      },
+      "whyTransferable": "POV plus an exact moment makes viewers self-identify instantly.",
+      "whatToChange": "Shoot the drawer dump top-down; caption ‘POV: laundry day, sock #14’.",
+      "whatToKeep": "The number fourteen, said twice",
+      "hypothesis": "If the hook uses POV framing, then hook rate rises because recognition is faster.",
+      "compatible": true,
+      "unsupportedClaimRisk": false,
+      "directCopyRisk": false,
+      "riskNotes": "Don't copy the competitor's bed-pile shot.",
+      "expectedImpact": "Hook rate"
+    },
+    {
+      "id": "M3",
+      "competitorTechniqueId": "T2",
+      "competitorSegmentId": "C2",
+      "winnerSegmentId": "W2",
+      "techniqueName": "Quantified pain counter",
+      "criteria": {
+        "role": {
+          "score": 9,
+          "reason": "Both are the pain beat."
+        },
+        "pain": {
+          "score": 9,
+          "reason": "Recurring loss in both."
+        },
+        "mechanism": {
+          "score": 8,
+          "reason": "Tally makes annoyance feel costly."
+        },
+        "productFit": {
+          "score": 6,
+          "reason": "Only creator's own counts allowed."
+        },
+        "novelty": {
+          "score": 7,
+          "reason": "Winner gives one number only."
+        }
+      },
+      "whyTransferable": "A growing count turns an annoyance into a recurring cost.",
+      "whatToChange": "Add a per-load tally of lost socks that ticks up on screen.",
+      "whatToKeep": "Mismatched-ankle office shot",
+      "hypothesis": "If pain shows a growing tally, then hold rate rises because the problem feels ongoing.",
+      "compatible": true,
+      "unsupportedClaimRisk": false,
+      "directCopyRisk": false,
+      "riskNotes": "Creator's own counts only, no stats.",
+      "expectedImpact": "Hold rate"
+    },
+    {
+      "id": "M4",
+      "competitorTechniqueId": "T6",
+      "competitorSegmentId": "C5",
+      "winnerSegmentId": "W5",
+      "techniqueName": "Split-screen from→to + witness",
+      "criteria": {
+        "role": {
+          "score": 9,
+          "reason": "Both are proof beats."
+        },
+        "pain": {
+          "score": 7,
+          "reason": "Messy vs tidy ≈ orphans vs paired."
+        },
+        "mechanism": {
+          "score": 8,
+          "reason": "Contrast plus witness beats self-claim."
+        },
+        "productFit": {
+          "score": 7,
+          "reason": "Fine if witness only reacts."
+        },
+        "novelty": {
+          "score": 8,
+          "reason": "Winner's proof is a solo line."
+        }
+      },
+      "whyTransferable": "Visible contrast plus a bystander's surprise beats a self-claim.",
+      "whatToChange": "Split-screen orphan pile vs paired drawer; partner off-camera: ‘they're all matched?’",
+      "whatToKeep": "‘1 month. 0 orphans.’ caption",
+      "hypothesis": "If proof is a split-screen with a reaction, then CTR rises because change is visible.",
+      "compatible": true,
+      "unsupportedClaimRisk": false,
+      "directCopyRisk": false,
+      "riskNotes": "Reaction only, no product review.",
+      "expectedImpact": "CTR"
+    },
+    {
+      "id": "M5",
+      "competitorTechniqueId": "T5",
+      "competitorSegmentId": "C4",
+      "winnerSegmentId": "W3",
+      "techniqueName": "ASMR mechanic sound",
+      "criteria": {
+        "role": {
+          "score": 7,
+          "reason": "Click lives in our reveal."
+        },
+        "pain": {
+          "score": 3,
+          "reason": "Sensory, not pain-driven."
+        },
+        "mechanism": {
+          "score": 8,
+          "reason": "Magnet click is great ASMR."
+        },
+        "productFit": {
+          "score": 10,
+          "reason": "The click is the product."
+        },
+        "novelty": {
+          "score": 8,
+          "reason": "Click exists but isn't featured."
+        }
+      },
+      "whyTransferable": "A product's own sound, mixed loud, becomes a memorable signature.",
+      "whatToChange": "Close-mic the magnet click, mix it loud, three clicks on the beat.",
+      "whatToKeep": "Macro framing of the cuffs",
+      "hypothesis": "If the click is an ASMR moment, then rewatches rise because the sound satisfies.",
+      "compatible": true,
+      "unsupportedClaimRisk": false,
+      "directCopyRisk": false,
+      "riskNotes": "",
+      "expectedImpact": "Rewatch rate"
+    },
+    {
+      "id": "M6",
+      "competitorTechniqueId": "T8",
+      "competitorSegmentId": "C7",
+      "winnerSegmentId": "W7",
+      "techniqueName": "Seamless loop ending",
+      "criteria": {
+        "role": {
+          "score": 9,
+          "reason": "Both are the final beat."
+        },
+        "pain": {
+          "score": 2,
+          "reason": "Structural, not pain-related."
+        },
+        "mechanism": {
+          "score": 7,
+          "reason": "Loops cleanly to our hook."
+        },
+        "productFit": {
+          "score": 8,
+          "reason": "No claims involved."
+        },
+        "novelty": {
+          "score": 9,
+          "reason": "Winner ends on a static shot."
+        }
+      },
+      "whyTransferable": "A last frame that matches the first earns free rewatches.",
+      "whatToChange": "End on the drawer-dump frame so the ad loops into the hook.",
+      "whatToKeep": "‘Lock your pairs’ CTA line",
+      "hypothesis": "If the ad loops seamlessly, then watch time rises because viewers start loop two.",
+      "compatible": true,
+      "unsupportedClaimRisk": false,
+      "directCopyRisk": false,
+      "riskNotes": "",
+      "expectedImpact": "Rewatch rate"
+    },
+    {
+      "id": "M7",
+      "competitorTechniqueId": "T3",
+      "competitorSegmentId": "C3",
+      "winnerSegmentId": "W3",
+      "techniqueName": "Whip-pan skeptical reveal",
+      "criteria": {
+        "role": {
+          "score": 9,
+          "reason": "Both pivot problem → product."
+        },
+        "pain": {
+          "score": 4,
+          "reason": "Only implicit pain link."
+        },
+        "mechanism": {
+          "score": 6,
+          "reason": "Question fits ‘magnet socks?’"
+        },
+        "productFit": {
+          "score": 8,
+          "reason": "No claims needed."
+        },
+        "novelty": {
+          "score": 6,
+          "reason": "New transition and caption."
+        }
+      },
+      "whyTransferable": "A skeptical question makes the demo feel like the answer.",
+      "whatToChange": "Whip-pan from the pile to the pair landing; caption ‘magnet socks…? really?’",
+      "whatToKeep": "‘A little magnet in each cuff’ line",
+      "hypothesis": "If the reveal is a question, then demo hold rate rises because viewers want the answer.",
+      "compatible": true,
+      "unsupportedClaimRisk": false,
+      "directCopyRisk": false,
+      "riskNotes": "Don't reuse ‘my sister sent me this’.",
+      "expectedImpact": "Hold rate"
+    },
+    {
+      "id": "M8",
+      "competitorTechniqueId": "T7",
+      "competitorSegmentId": "C6",
+      "winnerSegmentId": "W6",
+      "techniqueName": "Strikethrough price anchor + scarcity",
+      "criteria": {
+        "role": {
+          "score": 10,
+          "reason": "Both are offer beats."
+        },
+        "pain": {
+          "score": 2,
+          "reason": "Not pain-related."
+        },
+        "mechanism": {
+          "score": 5,
+          "reason": "Needs a ‘was’ price we lack."
+        },
+        "productFit": {
+          "score": 1,
+          "reason": "No approved discount or scarcity."
+        },
+        "novelty": {
+          "score": 4,
+          "reason": "Framing change only."
+        }
+      },
+      "whyTransferable": "Anchoring works only with a real previous price.",
+      "whatToChange": "Strikethrough ‘was’ price plus ‘before they sell out’.",
+      "whatToKeep": "Approved offer wording, unchanged",
+      "hypothesis": "—",
+      "compatible": false,
+      "unsupportedClaimRisk": true,
+      "directCopyRisk": false,
+      "riskNotes": "Invents a discount and scarcity.",
+      "expectedImpact": "Conversion rate"
+    },
+    {
+      "id": "M9",
+      "competitorTechniqueId": "T9",
+      "competitorSegmentId": "C5",
+      "winnerSegmentId": "W5",
+      "techniqueName": "View-count social proof overlay",
+      "criteria": {
+        "role": {
+          "score": 8,
+          "reason": "Both are proof beats."
+        },
+        "pain": {
+          "score": 3,
+          "reason": "Unrelated to pain."
+        },
+        "mechanism": {
+          "score": 6,
+          "reason": "Popularity as proof."
+        },
+        "productFit": {
+          "score": 2,
+          "reason": "No verified audience numbers."
+        },
+        "novelty": {
+          "score": 5,
+          "reason": "New proof type."
+        }
+      },
+      "whyTransferable": "Popularity persuades only with verified numbers.",
+      "whatToChange": "Overlay an audience number as casual proof.",
+      "whatToKeep": "Creator's own ‘1 month. 0 orphans.’",
+      "hypothesis": "—",
+      "compatible": true,
+      "unsupportedClaimRisk": true,
+      "directCopyRisk": false,
+      "riskNotes": "Unverifiable views/customer number.",
+      "expectedImpact": "CTR"
+    },
+    {
+      "id": "M10",
+      "competitorTechniqueId": "T3",
+      "competitorSegmentId": "C3",
+      "winnerSegmentId": "W3",
+      "techniqueName": "‘My sister sent me this’ referral line",
+      "criteria": {
+        "role": {
+          "score": 8,
+          "reason": "Same pivot role."
+        },
+        "pain": {
+          "score": 3,
+          "reason": "No pain link."
+        },
+        "mechanism": {
+          "score": 6,
+          "reason": "Trusted-person referral."
+        },
+        "productFit": {
+          "score": 4,
+          "reason": "Implies a fake recommendation."
+        },
+        "novelty": {
+          "score": 3,
+          "reason": "Reuses the competitor's line."
+        }
+      },
+      "whyTransferable": "Referral framing builds trust, but this lifts their line.",
+      "whatToChange": "Reuse ‘my sister sent me this’ as the reveal line.",
+      "whatToKeep": "Our own ‘So I switched to SockLock’",
+      "hypothesis": "—",
+      "compatible": false,
+      "unsupportedClaimRisk": true,
+      "directCopyRisk": true,
+      "riskNotes": "Verbatim competitor line plus implied testimonial.",
+      "expectedImpact": "Hook rate"
+    }
+  ],
+  "modifierVariations": [
+    {
+      "id": "V1",
+      "name": "The Uncut Cycle",
+      "angle": "Proof you can't fake: one take, one clock",
+      "hook": "Fourteen orphan socks dumped on the bed, then: ‘Okay. One take. No cuts. Watch.’",
+      "scenes": [
+        {
+          "number": 1,
+          "role": "Hook",
+          "timing": "0:00–0:03",
+          "voiceOver": "I found fourteen socks with no partner. Fourteen. So — one take, no cuts. Watch.",
+          "onScreenText": "14 orphans. 1 take. 0 cuts.",
+          "visualDirection": "Drawer flipped onto the bed (existing shot). Hard cut to a phone propped on the dresser with REC visible. Text punches in word by word."
+        },
+        {
+          "number": 2,
+          "role": "Solution",
+          "timing": "0:03–0:06",
+          "voiceOver": "These have a little magnet in each cuff.",
+          "onScreenText": "magnets in the cuffs 🧲",
+          "visualDirection": "Macro of two cuffs snapping together. Close-mic the click, mixed above the music."
+        },
+        {
+          "number": 3,
+          "role": "Demonstration",
+          "timing": "0:06–0:18",
+          "voiceOver": "Click them. Into the wash. Timer's running.",
+          "onScreenText": "⏱ cycle: 00:00 → 58:00",
+          "visualDirection": "ONE continuous handheld take: click → toss into the washer → door closes → steady time-lapse of the drum with a cycle-clock overlay ticking up → door opens. Never cut; the time-lapse must stay visibly continuous."
+        },
+        {
+          "number": 4,
+          "role": "Proof",
+          "timing": "0:18–0:22",
+          "voiceOver": "Still a pair.",
+          "onScreenText": "click → wash → still paired",
+          "visualDirection": "Same take continues: a hand pulls the pair from the drum, still attached, and holds it to the lens. Freeze for 6 frames."
+        },
+        {
+          "number": 5,
+          "role": "Offer",
+          "timing": "0:22–0:27",
+          "voiceOver": "Your first box is five pairs for twenty-nine dollars, then fresh pairs show up every quarter.",
+          "onScreenText": "5 pairs · $29",
+          "visualDirection": "Unboxing five pairs on the bed (existing shot)."
+        },
+        {
+          "number": 6,
+          "role": "CTA",
+          "timing": "0:27–0:30",
+          "voiceOver": "Tap the link and lock your pairs together.",
+          "onScreenText": "Lock your pairs →",
+          "visualDirection": "Creator holds the clicked pair to camera; end on the click sound."
+        }
+      ],
+      "inspiredBy": [
+        {
+          "matchId": "M1",
+          "techniqueName": "Uncut demo with live timer",
+          "competitorTimestamp": "0:12–0:21",
+          "howApplied": "The wash cycle is shown as one continuous take with a running clock."
+        },
+        {
+          "matchId": "M5",
+          "techniqueName": "ASMR mechanic sound",
+          "competitorTimestamp": "0:12–0:21",
+          "howApplied": "The magnet click is close-mic'd and mixed forward."
+        }
+      ],
+      "estimatedDurationSec": 30
+    },
+    {
+      "id": "V2",
+      "name": "POV: Sock #14",
+      "angle": "Self-recognition through a POV moment and a growing tally",
+      "hook": "Top-down POV of a sock drawer as orphans pile up, caption ‘POV: you just found sock #14’.",
+      "scenes": [
+        {
+          "number": 1,
+          "role": "Hook",
+          "timing": "0:00–0:03",
+          "voiceOver": "POV: you just found sock number fourteen. With no partner. Again.",
+          "onScreenText": "POV: orphan sock #14",
+          "visualDirection": "Locked top-down shot of an open drawer; orphan socks drop in one by one. Punch-in zoom at 1s on the 14th sock."
+        },
+        {
+          "number": 2,
+          "role": "Pain",
+          "timing": "0:03–0:09",
+          "voiceOver": "Every load, one more goes missing. And somehow it's always the day I wear the navy and the black.",
+          "onScreenText": "Load 1: −1 · Load 2: −2 · Load 3: −3",
+          "visualDirection": "Three quick laundry-basket shots, each with a tally sticker updating. End on the mismatched ankles under the desk (existing shot)."
+        },
+        {
+          "number": 3,
+          "role": "Solution",
+          "timing": "0:09–0:13",
+          "voiceOver": "So I switched to SockLock. There's a little magnet in each cuff.",
+          "onScreenText": "magnets in the cuffs 🧲",
+          "visualDirection": "Macro magnet click with audible snap."
+        },
+        {
+          "number": 4,
+          "role": "Demonstration",
+          "timing": "0:13–0:19",
+          "voiceOver": "Click, wash, done. Still a pair.",
+          "onScreenText": "click → wash → still paired",
+          "visualDirection": "Three-beat demo (existing). The tally sticker now reads ‘Load 4: −0’."
+        },
+        {
+          "number": 5,
+          "role": "Proof",
+          "timing": "0:19–0:22",
+          "voiceOver": "A month in. The counter hasn't moved.",
+          "onScreenText": "1 month. 0 orphans.",
+          "visualDirection": "Top-down on the same drawer, now neatly paired — mirrors the hook composition."
+        },
+        {
+          "number": 6,
+          "role": "Offer",
+          "timing": "0:22–0:27",
+          "voiceOver": "First box is five pairs for twenty-nine dollars, then fresh pairs every quarter.",
+          "onScreenText": "5 pairs · $29",
+          "visualDirection": "Unboxing, top-down to match the POV style."
+        },
+        {
+          "number": 7,
+          "role": "CTA",
+          "timing": "0:27–0:30",
+          "voiceOver": "Tap the link and lock your pairs together.",
+          "onScreenText": "Lock your pairs →",
+          "visualDirection": "A hand clicks a pair together in the drawer."
+        }
+      ],
+      "inspiredBy": [
+        {
+          "matchId": "M2",
+          "techniqueName": "POV pile-of-shame cold open",
+          "competitorTimestamp": "0:00–0:02",
+          "howApplied": "POV caption + top-down drawer + punch-in."
+        },
+        {
+          "matchId": "M3",
+          "techniqueName": "Quantified pain counter",
+          "competitorTimestamp": "0:02–0:08",
+          "howApplied": "A per-load tally of the creator's own lost socks."
+        }
+      ],
+      "estimatedDurationSec": 30
+    },
+    {
+      "id": "V3",
+      "name": "Before / After Drawer",
+      "angle": "Visible transformation, validated by a bystander",
+      "hook": "Split screen: 14-orphan chaos vs. a perfectly paired drawer, and an off-camera ‘wait… they're all matched?’",
+      "scenes": [
+        {
+          "number": 1,
+          "role": "Proof",
+          "timing": "0:00–0:03",
+          "voiceOver": "(Partner, off-camera) Wait… they're all matched?",
+          "onScreenText": "14 orphans → 0",
+          "visualDirection": "Hard-open on a split screen: left, the bed covered in orphan socks; right, the paired drawer. The partner leans into the right half."
+        },
+        {
+          "number": 2,
+          "role": "Hook",
+          "timing": "0:03–0:06",
+          "voiceOver": "A month ago I had fourteen socks with no partner. Fourteen.",
+          "onScreenText": "a month ago…",
+          "visualDirection": "Rewind-scrub SFX; the left half expands to full screen — the drawer-dump shot."
+        },
+        {
+          "number": 3,
+          "role": "Pain",
+          "timing": "0:06–0:10",
+          "voiceOver": "Every laundry day, one of each pair disappeared.",
+          "onScreenText": "the laundry ate it. again.",
+          "visualDirection": "Mismatched ankles under the desk (existing)."
+        },
+        {
+          "number": 4,
+          "role": "Solution",
+          "timing": "0:10–0:14",
+          "voiceOver": "Then SockLock. A little magnet in each cuff.",
+          "onScreenText": "magnets in the cuffs 🧲",
+          "visualDirection": "Macro click."
+        },
+        {
+          "number": 5,
+          "role": "Demonstration",
+          "timing": "0:14–0:19",
+          "voiceOver": "Click them, wash them, still a pair.",
+          "onScreenText": "click → wash → still paired",
+          "visualDirection": "Three-beat demo (existing)."
+        },
+        {
+          "number": 6,
+          "role": "Offer",
+          "timing": "0:19–0:24",
+          "voiceOver": "First box: five pairs for twenty-nine dollars, then fresh pairs every quarter.",
+          "onScreenText": "5 pairs · $29",
+          "visualDirection": "Unboxing."
+        },
+        {
+          "number": 7,
+          "role": "CTA",
+          "timing": "0:24–0:28",
+          "voiceOver": "Tap the link and lock your pairs together.",
+          "onScreenText": "Lock your pairs →",
+          "visualDirection": "Cut back to the opening split screen so the ad loops."
+        }
+      ],
+      "inspiredBy": [
+        {
+          "matchId": "M4",
+          "techniqueName": "Split-screen from→to + witness",
+          "competitorTimestamp": "0:21–0:26",
+          "howApplied": "Opens on the before/after split with a partner's reaction."
+        },
+        {
+          "matchId": "M6",
+          "techniqueName": "Seamless loop ending",
+          "competitorTimestamp": "0:30–0:34",
+          "howApplied": "The final frame returns to the split screen."
+        }
+      ],
+      "estimatedDurationSec": 28
+    },
+    {
+      "id": "V4",
+      "name": "Magnet ASMR",
+      "angle": "Satisfying sensory loop",
+      "hook": "Black screen, then three crisp magnet clicks on the beat before any words.",
+      "scenes": [
+        {
+          "number": 1,
+          "role": "Hook",
+          "timing": "0:00–0:03",
+          "voiceOver": "(No VO — three clicks on the beat.)",
+          "onScreenText": "🔊 sound on",
+          "visualDirection": "Three macro shots of cuffs clicking together, each cut on a beat. The click is close-mic'd, +6 dB."
+        },
+        {
+          "number": 2,
+          "role": "Solution",
+          "timing": "0:03–0:07",
+          "voiceOver": "That's the sound of a sock that can't lose its partner. Magnets in the cuffs.",
+          "onScreenText": "magnets in the cuffs 🧲",
+          "visualDirection": "Slow-motion macro of the cuffs snapping."
+        },
+        {
+          "number": 3,
+          "role": "Pain",
+          "timing": "0:07–0:11",
+          "voiceOver": "Because I used to find fourteen orphans in one drawer. Fourteen.",
+          "onScreenText": "14 orphan socks 😩",
+          "visualDirection": "Whip-pan to the drawer dump (existing shot); the music drops out for one beat."
+        },
+        {
+          "number": 4,
+          "role": "Demonstration",
+          "timing": "0:11–0:18",
+          "voiceOver": "Now it's click, wash, and they come out still a pair.",
+          "onScreenText": "click → wash → still paired",
+          "visualDirection": "The demo is cut to the beat; every transition lands on a click sound."
+        },
+        {
+          "number": 5,
+          "role": "Offer",
+          "timing": "0:18–0:23",
+          "voiceOver": "Your first box is five pairs for twenty-nine dollars, then fresh pairs every quarter.",
+          "onScreenText": "5 pairs · $29",
+          "visualDirection": "Five pairs clicked together one by one, a click per pair, laid out in a row."
+        },
+        {
+          "number": 6,
+          "role": "CTA",
+          "timing": "0:23–0:26",
+          "voiceOver": "Tap the link and lock your pairs together.",
+          "onScreenText": "Lock your pairs →",
+          "visualDirection": "End on a final click in macro; hard cut to black to loop into the opening clicks."
+        }
+      ],
+      "inspiredBy": [
+        {
+          "matchId": "M5",
+          "techniqueName": "ASMR mechanic sound",
+          "competitorTimestamp": "0:12–0:21",
+          "howApplied": "The magnet click becomes the hook and the edit rhythm."
+        },
+        {
+          "matchId": "M7",
+          "techniqueName": "Whip-pan skeptical reveal",
+          "competitorTimestamp": "0:08–0:12",
+          "howApplied": "A whip-pan bridges the sensory open and the pain flashback."
+        }
+      ],
+      "estimatedDurationSec": 26
+    },
+    {
+      "id": "V5",
+      "name": "The Skeptic's Test",
+      "angle": "Skepticism answered on camera",
+      "hook": "Creator holds up a pair: ‘Magnet socks? Really? Fine — I'm testing it.’",
+      "scenes": [
+        {
+          "number": 1,
+          "role": "Hook",
+          "timing": "0:00–0:03",
+          "voiceOver": "Magnet socks? Really? Fine. I'm testing it.",
+          "onScreenText": "magnet socks…? really?",
+          "visualDirection": "Creator raises an eyebrow and holds the pair to the lens. Whip-pan out."
+        },
+        {
+          "number": 2,
+          "role": "Pain",
+          "timing": "0:03–0:07",
+          "voiceOver": "Because I just found fourteen socks with no partner. Fourteen.",
+          "onScreenText": "14 orphan socks 😩",
+          "visualDirection": "Whip-pan lands on the drawer dump (existing)."
+        },
+        {
+          "number": 3,
+          "role": "Solution",
+          "timing": "0:07–0:10",
+          "voiceOver": "There's a little magnet in each cuff.",
+          "onScreenText": "magnets in the cuffs 🧲",
+          "visualDirection": "Macro click."
+        },
+        {
+          "number": 4,
+          "role": "Demonstration",
+          "timing": "0:10–0:20",
+          "voiceOver": "Click. Washer. Let's see.",
+          "onScreenText": "test: 1 full cycle",
+          "visualDirection": "Continuous take: click → washer → continuous time-lapse with a cycle-clock overlay → door opens."
+        },
+        {
+          "number": 5,
+          "role": "Proof",
+          "timing": "0:20–0:23",
+          "voiceOver": "…Okay. Still a pair.",
+          "onScreenText": "click → wash → still paired",
+          "visualDirection": "Creator pulls out the attached pair; a genuine small nod to camera."
+        },
+        {
+          "number": 6,
+          "role": "Offer",
+          "timing": "0:23–0:28",
+          "voiceOver": "First box is five pairs for twenty-nine dollars, then fresh pairs every quarter.",
+          "onScreenText": "5 pairs · $29",
+          "visualDirection": "Unboxing."
+        },
+        {
+          "number": 7,
+          "role": "CTA",
+          "timing": "0:28–0:31",
+          "voiceOver": "Tap the link and lock your pairs together.",
+          "onScreenText": "Lock your pairs →",
+          "visualDirection": "Creator holds the pair to the lens — the same framing as the opening, so it loops."
+        }
+      ],
+      "inspiredBy": [
+        {
+          "matchId": "M7",
+          "techniqueName": "Whip-pan skeptical reveal",
+          "competitorTimestamp": "0:08–0:12",
+          "howApplied": "The skeptical question becomes the hook."
+        },
+        {
+          "matchId": "M1",
+          "techniqueName": "Uncut demo with live timer",
+          "competitorTimestamp": "0:12–0:21",
+          "howApplied": "The test is a continuous timed cycle."
+        },
+        {
+          "matchId": "M6",
+          "techniqueName": "Seamless loop ending",
+          "competitorTimestamp": "0:30–0:34",
+          "howApplied": "The final framing matches the opening."
+        }
+      ],
+      "estimatedDurationSec": 31
+    }
+  ],
+  "creatorVariations": [
+    {
+      "id": "N1",
+      "name": "Sock Lost & Found — Closed",
+      "angle": "Mock ‘lost & found’ desk for orphan socks that finally shuts down",
+      "hook": "A cardboard ‘SOCK LOST & FOUND’ desk with a bell and a waiting line of orphan socks.",
+      "scenes": [
+        {
+          "number": 1,
+          "role": "Hook",
+          "timing": "0:00–0:03",
+          "voiceOver": "Welcome to my sock lost and found. Currently holding: fourteen.",
+          "onScreenText": "SOCK LOST & FOUND · 14 waiting",
+          "visualDirection": "Creator behind a cardboard desk with a handwritten sign and a counter bell. Orphan socks are lined up on the desk like a queue. *Ding.*"
+        },
+        {
+          "number": 2,
+          "role": "Pain",
+          "timing": "0:03–0:09",
+          "voiceOver": "New arrival every laundry day. Nobody ever comes back for them.",
+          "onScreenText": "new arrivals: every load",
+          "visualDirection": "Top-down: a sock drops into a ‘FOUND’ box after each load; the counter flips 12 → 13 → 14."
+        },
+        {
+          "number": 3,
+          "role": "Solution",
+          "timing": "0:09–0:13",
+          "voiceOver": "So I switched to SockLock. Little magnet in each cuff.",
+          "onScreenText": "magnets in the cuffs 🧲",
+          "visualDirection": "Macro click, close-mic'd."
+        },
+        {
+          "number": 4,
+          "role": "Demonstration",
+          "timing": "0:13–0:20",
+          "voiceOver": "Click them together before the wash. They come out still a pair.",
+          "onScreenText": "click → wash → still paired",
+          "visualDirection": "Continuous take: click → washer → pull out still paired → creator walks the pair past the desk."
+        },
+        {
+          "number": 5,
+          "role": "Proof",
+          "timing": "0:20–0:23",
+          "voiceOver": "One month. No new arrivals.",
+          "onScreenText": "new arrivals: 0",
+          "visualDirection": "The counter stays on 14; the creator flips the sign to ‘CLOSED’."
+        },
+        {
+          "number": 6,
+          "role": "Offer",
+          "timing": "0:23–0:28",
+          "voiceOver": "First box is five pairs for twenty-nine dollars, then fresh pairs every quarter.",
+          "onScreenText": "5 pairs · $29",
+          "visualDirection": "Box set on the desk; five clicked pairs lifted out."
+        },
+        {
+          "number": 7,
+          "role": "CTA",
+          "timing": "0:28–0:31",
+          "voiceOver": "Tap the link and lock your pairs together.",
+          "onScreenText": "Lock your pairs →",
+          "visualDirection": "*Ding.* Lights off on the desk — then cut to the opening frame for the loop."
+        }
+      ],
+      "inspiredBy": [
+        {
+          "matchId": "M3",
+          "techniqueName": "Quantified pain counter",
+          "competitorTimestamp": "0:02–0:08",
+          "howApplied": "A physical counter prop tracks orphan arrivals."
+        },
+        {
+          "matchId": "M2",
+          "techniqueName": "POV pile-of-shame cold open",
+          "competitorTimestamp": "0:00–0:02",
+          "howApplied": "The problem is staged in its exaggerated natural habitat."
+        },
+        {
+          "matchId": "M6",
+          "techniqueName": "Seamless loop ending",
+          "competitorTimestamp": "0:30–0:34",
+          "howApplied": "The final frame cuts back to the opening desk."
+        }
+      ],
+      "estimatedDurationSec": 31
+    },
+    {
+      "id": "N2",
+      "name": "One Load, One Take",
+      "angle": "A whole laundry day in a single continuous shot",
+      "hook": "‘I'm going to do a whole load of laundry in one take — and not lose a single sock.’",
+      "scenes": [
+        {
+          "number": 1,
+          "role": "Hook",
+          "timing": "0:00–0:03",
+          "voiceOver": "One load. One take. Zero lost socks. Let's go.",
+          "onScreenText": "1 load · 1 take · 0 lost",
+          "visualDirection": "Creator sits on the edge of the bed pulling off socks; the camera is handheld and never cuts. A timer starts in the corner."
+        },
+        {
+          "number": 2,
+          "role": "Solution",
+          "timing": "0:03–0:07",
+          "voiceOver": "Magnets in the cuffs — click.",
+          "onScreenText": "magnets in the cuffs 🧲",
+          "visualDirection": "The camera pushes into the cuffs clicking; the click is mixed loud."
+        },
+        {
+          "number": 3,
+          "role": "Pain",
+          "timing": "0:07–0:11",
+          "voiceOver": "Normally this is where one of them disappears forever.",
+          "onScreenText": "normally: −1 sock",
+          "visualDirection": "The camera follows the creator to the hamper; a quick glance at the old orphan pile on the floor."
+        },
+        {
+          "number": 4,
+          "role": "Demonstration",
+          "timing": "0:11–0:22",
+          "voiceOver": "Into the wash… and out.",
+          "onScreenText": "⏱ cycle time shown",
+          "visualDirection": "Continuous move into the washer, then a visibly continuous time-lapse of the drum with the clock; the door opens and the pair comes out attached."
+        },
+        {
+          "number": 5,
+          "role": "Offer",
+          "timing": "0:22–0:27",
+          "voiceOver": "First box is five pairs for twenty-nine dollars, then fresh pairs every quarter.",
+          "onScreenText": "5 pairs · $29",
+          "visualDirection": "Walk back to the drawer; the pair goes in next to four others."
+        },
+        {
+          "number": 6,
+          "role": "CTA",
+          "timing": "0:27–0:30",
+          "voiceOver": "Tap the link and lock your pairs together.",
+          "onScreenText": "Lock your pairs →",
+          "visualDirection": "The drawer closes on the beat; the timer stops."
+        }
+      ],
+      "inspiredBy": [
+        {
+          "matchId": "M1",
+          "techniqueName": "Uncut demo with live timer",
+          "competitorTimestamp": "0:12–0:21",
+          "howApplied": "The whole ad is one continuous take with a clock."
+        },
+        {
+          "matchId": "M5",
+          "techniqueName": "ASMR mechanic sound",
+          "competitorTimestamp": "0:12–0:21",
+          "howApplied": "The click is featured and mixed loud."
+        }
+      ],
+      "estimatedDurationSec": 30
+    }
+  ]
+}
